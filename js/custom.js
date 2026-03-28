@@ -3,3 +3,8 @@ $(document).ready(function(){
    $("header").toggleClass("active");
   });
 });
+$(document).ready(function(){
+  $(".close").click(function(){
+    $(".calendar-hed").toggle();
+  });
+});
